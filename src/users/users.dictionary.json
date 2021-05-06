@@ -1,0 +1,119 @@
+{
+  "register": {
+    "user_already_exists": [
+      "User with this email already exist",
+      "Пользователь с такой почтой уже существует"
+    ],
+    "user_is_registered": [
+      "User is registered, to confirm registration follow the link in email",
+      "Пользователь зарегистрирован, для подтверждения регистрации перейдите по ссылке в письме"
+    ]
+  },
+  "confirm": {
+    "email_already_confirmed": [
+      "Email already confirmed",
+      "Почта уже подтверждена"
+    ],
+    "invalid_token": ["Invalid token", "Неверный токен"],
+    "email_successfully_confirmed": [
+      "Email successfully confirmed",
+      "Почта успешно подтверждена"
+    ]
+  },
+  "login": {
+    "email_not_exist": [
+      "User with this email does not exist",
+      "Пользователя с такой почтой не существует"
+    ],
+    "wrong_password": ["Wrong password", "Неверный пароль"],
+    "user_blocked": ["User blocked", "Пользователь заблокирован"],
+    "email_not_confirm": [
+      "Email not confirmed. To complete registration follow the link in email",
+      "Почта не подтверждена. Для завершения регистрации перейдите по ссылке в письме"
+    ],
+    "successful_login": ["Successful login", "Успешный вход"]
+  },
+  "forgot": {
+    "user_not_found": ["User not found", "Пользователь не найден"],
+    "user_blocked": ["User blocked", "Пользователь заблокирован"],
+    "breaktime": [
+      "Email to restore access already has been sent, please check your mail",
+      "Письмо для восстановления доступа уже было отправлено, проверьте свою почту"
+    ],
+    "restore_access_has_been_sent": [
+      "Email to restore access has been sent, please check your mail",
+      "Письмо для восстановления доступа отправлено, проверьте свою почту"
+    ]
+  },
+  "reset": {
+    "link_is_invalid": [
+      "The link is invalid or out of date",
+      "Ссылка некорректна или устарела"
+    ],
+    "password_successfully_changed": [
+      "Password successfully changed",
+      "Пароль успешно изменен"
+    ]
+  },
+  "connect": {
+    "provider_not_found": ["Provider not found", "Провайдер не найден"],
+    "email_not_specified": [
+      "Email address not specified",
+      "Не указан адрес почты"
+    ],
+    "authorization_failed": [
+      "Authorization failed, try again",
+      "Сбой авторизации, попробуйте еще раз"
+    ],
+    "user_is_registered": [
+      "User is registered",
+      "Пользователь зарегистрирован"
+    ],
+    "successful": ["Successful login", "Успешный вход"]
+  },
+  "validator": {
+    "email": {
+      "IsNotEmpty": ["Enter email", "Введите почту"],
+      "IsEmail": ["Incorrect email format", "Некорректный формат почты"]
+    },
+    "password": {
+      "IsNotEmpty": ["Enter password", "Введите пароль"],
+      "Length": [
+        "Password must contain at least 6 symbols",
+        "Пароль должен содержать не менее 6 символов"
+      ],
+      "Matches": [
+        "Password must contain upper and lower case latin characters (a-zA-Z), number and special character",
+        "Пароль должен содержать латинские символы верхнего и нижнего регистра (a-zA-Z), число и символ"
+      ]
+    },
+    "provider": {
+      "IsNotEmpty": ["Provider not received", "Не получен провайдер"]
+    },
+    "code": {
+      "IsNotEmpty": [
+        "Authorization code not received",
+        "Не получен код авторизации"
+      ]
+    },
+    "token": {
+      "IsNotEmpty": ["Token not received", "Не получен токен"],
+      "IsString": ["Not a valid token", "Недействительный токен"]
+    }
+  },
+  "mailer": {
+    "password_recovery": ["Password recovery", "Восстановление пароля"],
+    "password_changed": ["Password changed", "Пароль изменен"],
+    "verify_email": ["Verify your email", "Подтвердите свою почту"],
+    "successful_registration": [
+      "Successful registration",
+      "Успешная регистрация"
+    ]
+  },
+  "error": {
+    "server_error": [
+      "Server error, try later",
+      "Ошибка сервера, попробуйте позже"
+    ]
+  }
+}
